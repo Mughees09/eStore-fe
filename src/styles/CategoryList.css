@@ -1,0 +1,14 @@
+/* CategoryList styling */
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border: 1px solid #333; /* Darken the border color */
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color for better contrast on dark background */
+  margin-right: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

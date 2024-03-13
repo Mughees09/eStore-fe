@@ -1,0 +1,163 @@
+/* CartItemsContainer.css */
+
+/* Container for Cart Item Cards */
+.cart-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    background-color: #222;
+    color: #fff;
+    margin-right: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+  /* Heading Styles */
+  .cart-items-container-heading {
+    text-align: left;
+    color: #b1a3a3;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-color: #cbd5e0;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  /* Cart Item Card Styles */
+  .cart-item-card {
+    width: 18rem;
+    border: 1px solid #333;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .cart-item-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .cart-item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .cart-item-details {
+    padding: 1rem;
+  }
+  
+  .cart-item-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #b1a3a3;
+  }
+  
+  .cart-item-text {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #b1a3a3;
+  }
+  
+
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+    color: #c7b9b9;
+  }
+  
+  .quantity-count {
+    font-size: 1.4rem; /* Adjust the font size as needed */
+  }
+
+  .cart-item-quantity button {
+    background-color: #333; /* Button background color */
+    color: #b1a3a3; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin: 0 8px; /* Add spacing between buttons */
+    cursor: pointer;
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+  
+  .cart-item-quantity button:hover {
+    background-color: #555; /* Darker button background color on hover */
+  }
+
+
+  /* Cart Total Amount And Checkout button */
+
+
+  .cart-total-amount-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    background-color: #222;
+    color: #fff;
+    margin-right: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Heading Styles */
+  .cart-total-amount-container-heading {
+    text-align: left;
+    color: #b1a3a3;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-color: #cbd5e0;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  /* Cart Item Card Styles */
+  .cart-total-amount-card {
+    width: 100%; /* Make each card use 100% width within the container */
+    border: 1px solid #333;
+    margin: 1rem 0; /* Add margin to separate cards vertically */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #222;
+    color: #fff;
+  }
+
+  .cart-total-amount-details {
+    padding: 1rem;
+  }
+  
+  .cart-total-amount-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #b1a3a3;
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .cart-total-amount-text {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    display: inline;
+    margin-right: 10px;
+    color: #b1a3a3;
+  }
+
+
+  .checkout-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* Add spacing between total amount and the button */
+  }

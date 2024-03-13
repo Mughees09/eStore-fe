@@ -1,0 +1,11 @@
+/* Authentication.css */
+.auth-body {
+    background-image: url('../../public/images/wp5762696-watch-dogs-logo-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #b1a3a3; 
+}

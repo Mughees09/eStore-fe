@@ -1,0 +1,86 @@
+
+.text-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 100%; /* Button takes up full width of the card */
+    border: 1px solid #ccc; /* Optional border above the button */
+    margin-top: 1rem; /* Spacing between title and button */
+  }
+  
+  .text-button:hover {
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+
+   /* .border.p-2.border-orange-700.hover-text-orange-700.float-right */
+   .add-to-cart-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 50%; /* Button takes up full width of the card */
+    border: 1px solid #ccc; /* Optional border above the button */
+    margin-top: 1rem; /* Spacing between title and button */
+  }
+  
+  /* Add more custom styles as needed */
+  
+  .add-to-cart-button:hover {
+    border: 2px solid #fff;
+    background-color: #cbd5e0;
+    color: #222;
+    border-radius: 10px;
+  }
+
+
+  /* .border.p-2.border-orange-700.hover-text-orange-700.float-right */
+  .remove-from-cart-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 50%; /* Button takes up full width of the card */
+    border: 1px solid #ccc; /* Optional border above the button */
+    margin-top: 1rem; /* Spacing between title and button */
+  }
+  
+  /* Add more custom styles as needed */
+  
+  .remove-from-cart-button:hover {
+    border: 2px solid #fff;
+    background-color: #cbd5e0;
+    color: #222;
+    border-radius: 10px;
+  }
+
+
+  .checkout-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 100%; /* Button takes up full width of the card */
+    border: 1px solid #ccc; /* Optional border above the button */
+    margin-top: 1rem; /* Spacing between title and button */
+  }
+
+  .checkout-button:hover {
+    border: 2px solid #fff;
+    background-color: #cbd5e0;
+    color: #222;
+    border-radius: 10px;
+  }

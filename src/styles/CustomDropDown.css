@@ -1,0 +1,23 @@
+.custom-dropdown {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+   
+  }
+  
+  .custom-dropdown label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 2rem;
+  }
+  
+  .custom-dropdown select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Add more styles as needed */
+  

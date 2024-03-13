@@ -1,0 +1,26 @@
+.custom-date-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #0a310c;
+  border-radius: 0.5rem;
+  background-color: #333;
+}
+
+.custom-date-selector label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff; /* Match the label color to CustomInput */
+}
+
+.custom-date-selector .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.custom-date-selector .react-datepicker-popper {
+  z-index: 9999;
+}
+
+/* Add more styles as needed */
