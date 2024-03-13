@@ -7,7 +7,7 @@ To get started with the eStore frontend, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/eStore-fe.git
+   git clone https://github.com/Mughees09/eStore-fe.git
    cd eStore-fe
 2. Install dependencies:
    ```bash
